@@ -1,0 +1,66 @@
+#!/usr/bin/env bash
+# setup script for macos
+# akash vyas
+
+# usage: run in user's home directory
+
+### tooling ###
+
+# terminal
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install alacritty
+brew install neofetch
+brew install git
+brew install tree
+brew install wget
+
+# zsh and oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+brew install thefuck
+brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
+
+# window management
+brew install koekeishiya/formulae/yabai
+brew install koekeishiya/formulae/skhd
+
+# programming languages
+brew install python
+brew install java
+brew install rust
+brew install ocaml
+brew install go
+
+### applications ###
+
+# browser
+brew install --cask firefox
+brew install --cask google-chrome
+
+# social
+brew install --cask discord
+brew install --cask slack
+brew install --cask zoom
+
+# development
+brew install --cask visual-studio-code
+
+# office
+brew install --cask microsoft-office
+
+# other
+brew install --cask spotify
+
+### files ###
+
+cd Documents
+git clone 
+
+### customization ###
+
+# wallpaper
+
+# spicetify
+
+# dotfiles
+git clone 
