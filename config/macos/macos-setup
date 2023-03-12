@@ -44,6 +44,7 @@ brew install --cask zoom
 
 # development
 brew install --cask visual-studio-code
+brew install --cask typora
 
 # office
 brew install --cask microsoft-office
@@ -53,14 +54,23 @@ brew install --cask spotify
 
 ### files ###
 
-cd Documents
-git clone 
+brew install --cask google-drive
 
-### customization ###
-
-# wallpaper
-
-# spicetify
+### config ###
 
 # dotfiles
-git clone 
+git clone git@github.com:akashkvyas/dotfiles.git
+mv dotfiles Dotfiles
+ln -s ~/Dotfiles/config/macos ~/.config
+
+# wallpaper
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "~/Dotfiles/wallpapers/nighthawks-edward-hopper-hz.jpg"'
+
+# spicetify
+brew install spicetify/homebrew-tap/spicetify-cli
+mkdir -p ~/.config/spicetify/themes
+cd ~/.config/spicetify/themes
+git clone --depth=1 https://github.com/spicetify/spicetify-themes.git 
+cd ~
+spicetify config current_theme Onepunch color_scheme dark
+spicetify apply
