@@ -8,7 +8,8 @@
 
 # dotfiles
 mv dotfiles Dotfiles
-ln -s ~/Dotfiles/config/macos ~/.config
+ln -s ~/Dotfiles/config/macos ~
+mv macos .config
 
 # terminal
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -58,7 +59,7 @@ brew install --cask microsoft-office
 # other
 brew install --cask spotify
 
-### files ###
+### file system ###
 
 brew install --cask google-drive
 
@@ -74,4 +75,4 @@ cd ~/.config/spicetify/themes
 git clone --depth=1 https://github.com/spicetify/spicetify-themes.git 
 cd ~
 spicetify config current_theme Onepunch color_scheme dark
-spicetify apply
+spicetify backup apply
