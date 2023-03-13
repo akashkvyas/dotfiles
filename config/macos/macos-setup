@@ -74,7 +74,9 @@ osascript -e "tell application \"System Events\" to tell every desktop to set pi
 brew install spicetify/homebrew-tap/spicetify-cli
 mkdir -p ~/.config/spicetify/themes
 cd ~/.config/spicetify/themes
-git clone --depth=1 https://github.com/spicetify/spicetify-themes.git 
+git clone --depth=1 https://github.com/spicetify/spicetify-themes.git
+mv spicetify-themes/* .
+rm -rf spicetify-themes
 cd ~
 spicetify config current_theme Onepunch color_scheme dark
 spicetify backup apply
