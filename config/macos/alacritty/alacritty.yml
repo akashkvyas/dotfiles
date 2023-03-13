@@ -3,7 +3,7 @@
 
 import:
   # import theme
-  - ~/.config/alacritty/themes/gruvbox.yml
+  - ~/.config/alacritty/themes/gruvbox-dark-hard.yml
 
 env:
   # term variable, `xterm-256color` or 'alacritty'

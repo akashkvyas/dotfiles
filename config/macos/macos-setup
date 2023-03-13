@@ -6,6 +6,10 @@
 
 ### tooling ###
 
+# dotfiles
+mv dotfiles Dotfiles
+ln -s ~/Dotfiles/config/macos ~/.config
+
 # terminal
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install alacritty
@@ -56,12 +60,7 @@ brew install --cask spotify
 
 brew install --cask google-drive
 
-### config ###
-
-# dotfiles
-git clone git@github.com:akashkvyas/dotfiles.git
-mv dotfiles Dotfiles
-ln -s ~/Dotfiles/config/macos ~/.config
+### customization ###
 
 # wallpaper
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "~/Dotfiles/wallpapers/nighthawks-edward-hopper-hz.jpg"'
