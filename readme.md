@@ -23,8 +23,12 @@ chmod +x ~/dotfiles/config/arch-linux-setup
 ~/dotfiles/config/arch-linux-setup
 ```
 
+<<<<<<< HEAD
 macOS:
 Prior to installation, **System Integrity Protection should be disabled** on the system in order for yabai and skhd to work. Navigate to home directory.
+=======
+macOS: Prior to installation, **System Integrity Protection should be disabled** on the system in order for yabai and skhd to work. Navigate to home directory.
+>>>>>>> refs/remotes/origin/main
 
 ```bash
 chmod +x ~/dotfiles/config/macos-setup
