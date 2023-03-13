@@ -2,7 +2,9 @@
 
 Operating system configuration files for Akash Vyas.
 
-### Installation
+## Installation
+
+Navigate to home directory.
 
 ```bash
 cd ~
@@ -16,48 +18,47 @@ git clone git@github.com:akashkvyas/dotfiles.git
 
 Run installation script for your operating system. You may need to enter your password several times.
 
-Arch Linux:
+#### Arch Linux
 
 ```bash
-chmod +x ~/dotfiles/config/arch-linux-setup
-~/dotfiles/config/arch-linux-setup
+chmod +x ~/dotfiles/config/arch-linux/arch-linux-setup
+~/dotfiles/config/arch-linux/arch-linux-setup
 ```
 
-<<<<<<< HEAD
-macOS:
-Prior to installation, **System Integrity Protection should be disabled** on the system in order for yabai and skhd to work. Navigate to home directory.
-=======
-macOS: Prior to installation, **System Integrity Protection should be disabled** on the system in order for yabai and skhd to work. Navigate to home directory.
->>>>>>> refs/remotes/origin/main
+#### macOS
+
+Prior to installation, **system integrity protection should be disabled** on the system in order for yabai and skhd to work.
 
 ```bash
-chmod +x ~/dotfiles/config/macos-setup
-~/dotfiles/config/macos-setup
+chmod +x ~/dotfiles/config/macos/macos-setup
+~/dotfiles/config/macos/macos-setup
 ```
 
-### Configuration
+## Configuration
 
 Refer to the installation script to add applications and configure the file system.
+
+### Tooling
+
+This section details the terminal, shell, window management, and command line tools.
 
 #### Arch Linux
 
 The dotfiles reside in: `~/dotfiles` (default naming).
 
-##### Applications
-
-#### macOs
+#### MacOs
 
 The dotfiles reside in: `~/Dotfiles` (for consistency with macOS home directory, default naming in all other folders).
 
-##### Tooling
-
-Several development tools are installed by the system.
-
-##### Window Management
-
 Window management is done through **yabai**, and hotkey's are assigned through **skhd**.
 
-##### Applications
+### Applications
+
+This section details the applications/casks installed on the initial system.
+
+#### Arch Linux
+
+#### MacOs
 
 The macOS Launchpad organizes applications installed on the system. Default and addition casks installed by the script are organized in the following categories.
 
@@ -76,7 +77,21 @@ The macOS Launchpad organizes applications installed on the system. Default and 
   - Spotify, Chess
   - Note: Spotify is themed with **spicetify**.
 
-#### Documentation
+### Customization
+
+This section details added customizations to the system.
+
+#### Arch Linux
+
+#### MacOs
+
+### Documentation
+
+Relavent documentation links to development tools.
+
+#### Arch Linux
+
+#### MacOs
 
 - brew (package manager)
 - alacritty (terminal)
@@ -86,16 +101,14 @@ The macOS Launchpad organizes applications installed on the system. Default and 
 - oh-my-zsh (zsh theming)
 - spicetify (spotify theming)
 
-#### File System
+## File System
 
 ##### Naming
 
-### Maintainance
+## Maintainance
 
 ##### Updating
 
-##### Reseting
+##### Resetting
 
-### Documentation
-
-### Sources
+## Sources
