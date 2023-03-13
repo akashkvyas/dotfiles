@@ -27,6 +27,8 @@ brew install zsh-syntax-highlighting
 # window management
 brew install koekeishiya/formulae/yabai
 brew install koekeishiya/formulae/skhd
+brew services start yabai
+brew services start skhd
 
 # programming languages
 brew install python
@@ -63,7 +65,7 @@ brew install --cask google-drive
 ### customization ###
 
 # wallpaper
-osascript -e 'tell application "Finder" to set desktop picture to POSIX file "~/Dotfiles/wallpapers/nighthawks-edward-hopper-hz.jpg"'
+osascript -e "tell application \"System Events\" to tell every desktop to set picture to \"~/Dotfiles/wallpapers/nighthawks-edward-hopper-hz.jpg\" as POSIX file"
 
 # spicetify
 brew install spicetify/homebrew-tap/spicetify-cli

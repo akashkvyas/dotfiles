@@ -4,8 +4,6 @@ Operating system configuration files for Akash Vyas.
 
 ### Installation
 
-Navigate to home directory.
-
 ```bash
 cd ~
 ```
@@ -16,16 +14,19 @@ Clone the repository.
 git clone git@github.com:akashkvyas/dotfiles.git
 ```
 
-Run installation script for your operating system.
+Run installation script for your operating system. You may need to enter your password several times.
+
+Arch Linux:
 
 ```bash
-# Arch Linux
 chmod +x ~/dotfiles/config/arch-linux-setup
 ~/dotfiles/config/arch-linux-setup
 ```
 
+macOS:
+Prior to installation, **System Integrity Protection should be disabled** on the system in order for yabai and skhd to work. Navigate to home directory.
+
 ```bash
-# macOS
 chmod +x ~/dotfiles/config/macos-setup
 ~/dotfiles/config/macos-setup
 ```
@@ -42,7 +43,7 @@ The dotfiles reside in: `~/dotfiles` (default naming).
 
 #### macOs
 
-The dotfiles reside in: `~/Dotfiles` (for consistency with macOS home directory, default naming in all other folders). 
+The dotfiles reside in: `~/Dotfiles` (for consistency with macOS home directory, default naming in all other folders).
 
 ##### Tooling
 
@@ -56,22 +57,30 @@ Window management is done through **yabai**, and hotkey's are assigned through *
 
 The macOS Launchpad organizes applications installed on the system. Default and addition casks installed by the script are organized in the following categories.
 
-![image-20230312224045327](/Users/akashkv/Library/Application Support/typora-user-images/image-20230312224045327.png)
-
 - Apple
   - All apps orginally included in the fresh install except Messages, Facetime, Chess.
 - Utilities
   - Included in the fresh install.
-  - Add any installed browsers to utilites.
+  - Add any installed browsers, file system management (google drive) to utilites.
 - Social
   - Messages, FaceTime, Discord, Zoom, Slack
 - Development
   - Alacritty, Visual Studio Code, Typora
 - Office
-  - OneDrive, Word, OneNote, PowerPoint, Excel, Outlook
+  - OneDrive, Word, OneNote, PowerPoint, Excel, Outlook, Docs, Slides, Sheets
 - Other
   - Spotify, Chess
-  - Note: Spotify is themed with **spicetify**. 
+  - Note: Spotify is themed with **spicetify**.
+
+#### Documentation
+
+- brew (package manager)
+- alacritty (terminal)
+- yabai (window manager)
+- skhd (hotkey daemon)
+- vscode (text editor)
+- oh-my-zsh (zsh theming)
+- spicetify (spotify theming)
 
 #### File System
 
@@ -86,4 +95,3 @@ The macOS Launchpad organizes applications installed on the system. Default and 
 ### Documentation
 
 ### Sources
-
