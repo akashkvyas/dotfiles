@@ -21,6 +21,8 @@ brew install wget
 
 # zsh and oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+rm .zshrc
+ln -s ~/Dotfiles/config/macos/.zshrc ~
 brew install thefuck
 brew install zsh-autosuggestions
 brew install zsh-syntax-highlighting
