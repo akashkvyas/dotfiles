@@ -1,0 +1,22 @@
+# alacritty config
+# akash vyas
+
+import:
+  # import theme
+  - ~/.config/alacritty/themes/gruvbox-dark-hard.yml
+
+env:
+  # term variable, `xterm-256color` or 'alacritty'
+  TERM: xterm-256color
+
+window:
+  # window padding to avoid title bar buttons
+  padding:
+    x: 10
+    y: 30
+
+  # set title bar to transparent, title bar buttons visible
+  decorations: transparent
+
+  # background opacity
+  opacity: 1.0
