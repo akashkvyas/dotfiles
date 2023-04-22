@@ -1,7 +1,3 @@
 # dotfiles
 
-Operating system configuration files for Akash Vyas.
-
-```
-
-```
+Operating system configuration files for Arch Linux and MacOS.
