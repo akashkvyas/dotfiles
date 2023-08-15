@@ -1,0 +1,14 @@
+# alacritty.yml
+# akash vyas
+
+import:
+  - ~/.config/alacritty/themes/gruvbox-material-dark.yml
+
+window:
+  padding:
+    x: 10
+    y: 10
+  opacity: 1.0
+
+cursor:
+  style: Beam
