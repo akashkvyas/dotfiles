@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# package management
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# languages
+brew install python rust ocaml go node
+
+# tools
+brew install zsh exa bat tree wget neofetch spicetify-cli
+
+# oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# social
+brew install discord slack zoom
+
+# development
+brew install visual-studio-code alacritty typora
+
+# office
+brew install dropbox microsoft-office
+
+# other
+brew install firefox spotify rectangle qbittorrent balenaetcher
