@@ -8,7 +8,10 @@ window:
   padding:
     x: 10
     y: 10
-  opacity: 0.999
+  opacity: 1.0
 
 cursor:
   style: Beam
+
+shell:
+  program: /usr/bin/zsh
